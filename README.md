@@ -23,7 +23,7 @@ Bienvenido a Spicy Basics, la parte del backend de nuestra aplicación de comerc
 - **Pasarela de pago:** <img src="https://i.postimg.cc/SKW0518m/icon-256x256.png" alt="Mercado Pago" width="20" heigth="20"/> Mercado Pago
 - **Envío de correo electrónico:** <img src="https://i.postimg.cc/767KqXyX/favicon-0.png" alt="Resend" width="20" heigth="20"/> Resend
 
-## Cómo Empezar
+## Cómo empezar
 
 1. Cloná el repositorio:
 
@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-## Requisitos Previos
+## Requisitos previos
 
 Asegurate de tener estos requisitos antes de continuar:
 
@@ -54,7 +54,7 @@ SECRET_KEY=tu_clave_secreta
 MP_ACCESS_TOKEN=tu_token_de_acceso_de_mercado_pago
 ```
 
-## Cómo Contribuir
+## Cómo contribuir
 
 ¡Tu contribución es bienvenida! Sigue estos pasos para contribuir al proyecto:
 
@@ -64,7 +64,7 @@ MP_ACCESS_TOKEN=tu_token_de_acceso_de_mercado_pago
 4. Hacé push a la rama: `git push origin <project_name>/<location>`
 5. Creá un pull request.
 
-## Más Información
+## Más información
 
 Para obtener detalles sobre la implementación del frontend y explorar el código fuente, te invito a visitar el repositorio correspondiente:
 
