@@ -7,6 +7,7 @@ import userRoutes from "./src/routes/user.routes";
 import productRoutes from "./src/routes/product.routes";
 import adminRoutes from "./src/routes/admin.routes";
 import paymentRoutes from "./src/routes/payment.routes";
+import mailRoutes from "./src/routes/mail.routes";
 import "./src/database/dbConnection";
 
 dotenv.config();
@@ -29,3 +30,4 @@ app.use("/apiSpicy", userRoutes);
 app.use("/apiSpicy/admin", adminRoutes);
 app.use("/apiSpicy/product", productRoutes);
 app.use("/apiSpicy/payment", paymentRoutes);
+app.use("/apiSpicy/mail", mailRoutes);
