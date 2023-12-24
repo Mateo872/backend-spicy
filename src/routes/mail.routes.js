@@ -27,7 +27,7 @@ router.route("/:email/send").get(async (req, res) => {
   try {
     const { data, error } = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
-      to: [email],
+      to: ["bellinimateo1@gmail.com", email],
       subject: "Confirmación de Orden - Spicy Basics",
       html: message,
     });
@@ -37,7 +37,6 @@ router.route("/:email/send").get(async (req, res) => {
     }
 
     res.status(200).json({ data });
-    console.log(data);
   } catch (error) {
     console.error(error);
   }
